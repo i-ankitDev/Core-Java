@@ -16,8 +16,10 @@ public class File_Handling {
 //        }
 //        try{
 //            FileWriter fileWriter = new FileWriter("Array_List.txt");
-//            fileWriter.write("ABCDEFGHIJKLMNOPQRSTUVWXYZ");
+//            fileWriter.write("www.github.com is used to track the change in your code");
+//            //fileWriter.flush();
 //            fileWriter.close();
+//            System.out.println("Data pushed");
 //        }
 //        catch (IOException e){
 //            e.printStackTrace();
@@ -27,8 +29,8 @@ public class File_Handling {
             while (sc.hasNextLine()){
                 String line = sc.nextLine();
                 System.out.println(line);
-                sc.close();
             }
+            sc.close();
         }
         catch (FileNotFoundException e){
             System.out.println(e);
